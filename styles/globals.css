@@ -135,10 +135,14 @@ span.text-red {
 
 .hero-banner-container {
   padding: 100px 40px;
-  background-color: #dcdcdc;
+  /* background-color: #dcdcdc; */
+  background: url(../public/assets/MASHAQ_BANNER.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 15px;
   position: relative;
-  height: 500px;
+  height: 60vh;
   line-height: 0.9;
   width: 100%;
 }

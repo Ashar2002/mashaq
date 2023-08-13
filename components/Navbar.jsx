@@ -8,10 +8,10 @@ const Navbar = () => {
   const { showCart, setShowCart, totalQuantities } = useStateContext();
 
   return (
-    <div className="navbar-container">
-      <p>
+    <div className="container ml-auto text-right mr-10 pb-10">
+      {/* <p>
         <Link href="/">BEST Headphones</Link>
-      </p>
+      </p> */}
 
       <button
         onClick={() => setShowCart(true)}
